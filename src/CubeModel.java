@@ -20,7 +20,6 @@ public class CubeModel extends Observable {
 
     public CubeModel(){
 
-        //char[][] top = new char[3][3];
         this.cube.put("top",new char[3][3]);
         this.cube.put("front",new char[3][3]);
         this.cube.put("left",new char[3][3]);
