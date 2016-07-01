@@ -17,27 +17,21 @@ public interface Configuration {
      *
      * @return All successors, valid and invalid
      */
-    public Collection< Configuration > getSuccessors();
+    Collection< Configuration > getSuccessors();
 
     /**
      * Is the current configuration valid or not?
      *
      * @return true if valid; false otherwise
      */
-    public boolean isValid();
+    boolean isValid();
 
     /**
      * Is the current configuration a goal?
      * @return true if goal; false otherwise
      */
-    public boolean isGoal();
+    boolean isGoal();
 
-    /**
-     * calls toString
-     */
-    public void display();
+    ArrayList getMoves();
 
-    public ArrayList getMoves();
-
-    public int getdepth();
 }

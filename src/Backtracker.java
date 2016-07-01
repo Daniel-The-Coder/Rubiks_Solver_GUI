@@ -12,7 +12,7 @@ import java.util.Optional;
  *
  * @author Sean Strout @ RIT CS
  * @author James Heliotis @ RIT CS
- * @author Patrick Ly & Daniel Roy Barman
+ * @author Daniel Roy Barman
  */
 public class Backtracker {
 
